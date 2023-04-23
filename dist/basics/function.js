@@ -7,7 +7,7 @@ add(5);
 function upper(val) {
     return val.toUpperCase();
 }
-var loginUser = function (name, email) {
+const loginUser = (name, email) => {
     return name + " " + email;
 };
 function val(myVal) {
